@@ -20,7 +20,7 @@ func ConnectDB(ctx context.Context) *mongo.Database {
 	if err != nil {
 		panic(err)
 	}
-	return client.Database("goss_prod")
+	return client.Database("gprod")
 }
 
 func NewMongoClient(ctx context.Context) (*mongo.Client, error) {
