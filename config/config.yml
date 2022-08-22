@@ -1,0 +1,6 @@
+environment: dev
+token: ABCDEF
+mongo:
+        uri: mongo://
+        user: admin
+        password: root
